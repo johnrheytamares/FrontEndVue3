@@ -179,7 +179,7 @@ const updateCompare = () => {
 
 const fetchCars = async (ids) => {
   try {
-    const res = await fetch('http://localhost:8000/api/compare/cars', {
+    const res = await fetch('https://backendlavalust4.onrender.com/api/compare/cars', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids })
