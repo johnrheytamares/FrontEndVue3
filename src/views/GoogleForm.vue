@@ -8,7 +8,7 @@
         <router-link to="/about" class="hover:text-red-600">About</router-link>
         <router-link to="/contact" class="hover:text-red-600">Contact</router-link>
         <router-link to="/google-form" class="text-red-600 border-b-2 border-red-600">Feedback</router-link>
-        <button @click="$router.push({ name: 'login' })" class="px-5 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium">
+        <button router-link to="/login" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition shadow-lg">
           Login
         </button>
       </nav>
